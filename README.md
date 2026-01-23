@@ -44,7 +44,7 @@ viewer engagement, and overall reach.
 ![Country Provider Heatmap](visuals/heatmap_provider_country.png)
 
 ## Project Structure 
-
+```text
 streaming-metadata-analytics/
 │
 ├── data/
@@ -70,7 +70,7 @@ streaming-metadata-analytics/
 ├── visuals/                       # Exported charts and images
 ├── requirements.txt
 └── README.md
-
+```
 ## Datasets
 All datasets are synthetic but designed to reflect realistic streaming platform behaviors and distributions.
 
