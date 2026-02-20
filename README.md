@@ -3,6 +3,10 @@
 **End-to-end Data Analytics & BI case study focused on streaming content performance and engagement modeling**
 *Python • Jupyter • Power BI • Excel*
 
+🔗 [View Dashboard Documentation & Live Link](dashboard/README.md)
+
+---
+
 ## Overview
 
 This project simulates a real-world streaming service analytics pipeline, similar to those used by companies such as Netflix, Prime Video, or Gracenote (Nielsen) to analyze content performance and user engagement.
@@ -21,14 +25,19 @@ This project is part of my Data Analyst portfolio, demonstrating technical depth
 - Communicate insights clearly through visualizations and documentation
 
 ## Key Insights
-These insights are derived from exploratory analysis, composite KPIs,
-and cross-dimensional comparisons across genre, provider, and content maturity.
 
-- Higher IMDb ratings correlate with completion, but not necessarily with total views
-- Action and Sci-Fi act as acquisition drivers
-- Animation and Comedy show highest rewatch behavior
-- Some providers prioritize catalog scale over average content quality
-- Engagement varies more by genre than by provider
+These insights are derived from exploratory analysis, KPI engineering,
+and strategic segmentation across genre, provider, and engagement metrics.
+
+- Sci-Fi drives the highest completion rate despite not leading in total views,
+  suggesting engagement intensity is independent from volume
+- Gini Index ≈ 0.06 indicates exceptionally balanced catalog consumption —
+  no blockbuster dependency
+- 26% of titles classified as Underperformers — direct candidates for
+  catalog optimization
+- Rewatch rate varies significantly by genre: Animation leads,
+  Action underperforms relative to its view volume
+- 91.3% Non-US content exposure reflects strong international diversification
 
 ---
 
@@ -247,5 +256,5 @@ The `reports/` folder includes business and technical documentation used to guid
 **Matteo Cavo**
 Data Analyst · Metadata & content expert
 12+ years of international experience in content and metadata operations
-(Nielsen / Gracenote, Netflix, Amazon, Disney+, RAI, SKY).
+(Nielsen / Gracenote, Netflix, Amazon, Disney+, RAI, SKY)
 Focused on analytics, performance modeling, and metadata intelligence.
