@@ -57,8 +57,8 @@ streaming-metadata-analytics/
 │   └── 03_advanced_visualizations.ipynb
 │                                  # Advanced visualizations & KPI summaries
 │
-├── powerbi/
-│   ├── Streaming_Dash.pbix        # Interactive Power BI dashboard
+├── dashboard/
+│   ├── README.MD        # Interactive Power BI dashboard
 │   └── screenshots/               # Dashboard screenshots
 │
 ├── reports/
