@@ -144,6 +144,8 @@ Performance segmentation matrix and strategic breakdown.
 
 ## Technical Implementation
 
+The dashboard relies on advanced Power BI modeling techniques including:
+
 - Advanced DAX measures with controlled filter context  
 - Median-based segmentation logic  
 - Completion Lift using dynamic global benchmark  
@@ -156,8 +158,9 @@ Performance segmentation matrix and strategic breakdown.
 
 ## Dataset Design
 
-Synthetic dataset engineered to simulate realistic streaming behavior patterns.
+The dataset is synthetically generated to simulate realistic streaming engagement patterns. 
 
+This controlled design allows the modeling of behavioral dynamics (completion, rewatch, concentration) without noise from incomplete real-world data.
 Attributes include:
 
 - Genre  
@@ -176,11 +179,10 @@ Synthetic generation allowed controlled modeling of engagement dynamics and cata
 
 ## Key Takeaways
 
-- Balanced catalog with low concentration risk  
-- Engagement driven more by content type than rating  
-- 26% of titles represent potential removal candidates  
-- Strong international exposure footprint  
-
+- The catalog shows low concentration risk (Gini ≈ 0.06), indicating structural resilience.
+- Engagement efficiency varies more by genre than by perceived quality.
+- Approximately 26% of titles fall into the Underperformers segment, representing optimization opportunities.
+- Strong international exposure highlights diversified geographic demand.
 ---
 
 ## Project Scope
