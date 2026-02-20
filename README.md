@@ -58,7 +58,7 @@ streaming-metadata-analytics/
 │                                  # Advanced visualizations & KPI summaries
 │
 ├── dashboard/
-│   ├── README.MD        # Interactive Power BI dashboard
+│   ├── README.MD                  # Interactive Power BI dashboard
 │   └── screenshots/               # Dashboard screenshots
 │
 ├── reports/
