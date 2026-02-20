@@ -34,8 +34,11 @@ The dashboard analyzes 2,000 titles across 21 metadata attributes including:
 - Popularity Score  
 - Release Year  
 
-The data used in this dashboard comes from:  [data/processed](https://github.com/matteocavo/streaming-metadata-analytics/blob/main/data/processed/)
+The dashboard is built on the enriched dataset:
 
+`data/processed/streaming_catalog_enriched.csv`
+
+This file contains the fully processed and feature-engineered catalog used for analytical modeling and segmentation.
 
 ---
 
