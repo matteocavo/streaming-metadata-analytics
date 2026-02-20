@@ -1,6 +1,6 @@
 # Streaming Metadata Analytics Project (2025)
 
-**End-to-end Data Analytics & BI case study focused on content performance and engagement**  
+**End-to-end Data Analytics & BI case study focused on streaming content performance and engagement modeling**
 *Python • Jupyter • Power BI • Excel*
 
 ## Overview
@@ -9,7 +9,7 @@ This project simulates a real-world streaming service analytics pipeline, simila
 
 The goal is to demonstrate a complete data analytics workflow, from raw data ingestion to KPI engineering, advanced exploratory analysis, and business-facing dashboards.
 
-This project is part of my Data Analyst portfolio, showcasing technical, analytical, and business-oriented skills.
+This project is part of my Data Analyst portfolio, demonstrating technical depth, analytical rigor, and business-oriented decision framing.
 
 ## Objectives
 
@@ -27,7 +27,7 @@ and cross-dimensional comparisons across genre, provider, and content maturity.
 - Higher IMDb ratings correlate with completion, but not necessarily with total views
 - Action and Sci-Fi act as acquisition drivers
 - Animation and Comedy show highest rewatch behavior
-- Some providers trade catalog quality for scale
+- Some providers prioritize catalog scale over average content quality
 - Engagement varies more by genre than by provider
 
 ---
@@ -247,4 +247,5 @@ The `reports/` folder includes business and technical documentation used to guid
 **Matteo Cavo**
 Data Analyst · Metadata & content expert
 12+ years of international experience in content and metadata operations
-(Nielsen / Gracenote, Netflix, Amazon, Disney+, RAI, SKY)
+(Nielsen / Gracenote, Netflix, Amazon, Disney+, RAI, SKY).
+Focused on analytics, performance modeling, and metadata intelligence.
