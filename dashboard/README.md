@@ -34,7 +34,7 @@ The dashboard analyzes 2,000 titles across 21 metadata attributes including:
 - Popularity Score  
 - Release Year  
 
-The data used in this dashboard comes from: .\data\processed\streaming_catalog_enriched.csv
+The data used in this dashboard comes from:  [data/processed](https://github.com/matteocavo/streaming-metadata-analytics/blob/main/data/processed/)
 
 
 ---
@@ -105,37 +105,37 @@ Current distribution:
 
 High-level KPIs and global performance breakdown.
 
-![Overview](dashboard/screenshots/overview.png)
+![Overview](screenshots/overview.png)
 
 ### Provider Deep Dive
 
 Performance comparison and Completion Lift vs global benchmark.
 
-![Provider](dashboard/screenshots/provider.png)
+![Provider](screenshots/provider.png)
 
 ### Genre Deep Dive
 
 Completion efficiency and performance distribution by genre.
 
-![Genre](dashboard/screenshots/genre.png)
+![Genre](screenshots/genre.png)
 
 ### Catalog Health
 
 Consumption concentration and distribution analysis.
 
-![Catalog Health](dashboard/screenshots/catalog-health.png)
+![Catalog Health](screenshots/catalog-health.png)
 
 ### Quality vs Consumption
 
 Engagement behavior under interactive filters.
 
-![Quality vs Consumption](dashboard/screenshots/quality-vs-consumption.png)
+![Quality vs Consumption](screenshots/quality-vs-consumption.png)
 
 ### Content Strategy
 
 Performance segmentation matrix and strategic breakdown.
 
-![Content Strategy](dashboard/screenshots/content-strategy.png)
+![Content Strategy](screenshots/content-strategy.png)
 
 ---
 
