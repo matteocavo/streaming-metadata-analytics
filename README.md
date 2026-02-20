@@ -48,34 +48,43 @@ viewer engagement, and overall reach.
 ---
 
 ## Project Structure 
+
 ```text
 streaming-metadata-analytics/
 │
 ├── data/
-│   ├── raw/                       # Original synthetic datasets
-│   └── processed/                 # Enriched catalog dataset
+│   ├── raw/                           # Original synthetic datasets
+│   └── processed/                     # Enriched catalog dataset (feature-engineered)
 │
 ├── notebooks/
-│   ├── 01_exploration.ipynb       # Data cleaning, merging, KPI engineering
-│   ├── 02_visualizations.ipynb    # Core exploratory visual analysis
+│   ├── 01_exploration.ipynb           # Data cleaning, merging, KPI engineering
+│   ├── 02_visualizations.ipynb        # Core exploratory visual analysis
 │   └── 03_advanced_visualizations.ipynb
-│                                  # Advanced visualizations & KPI summaries
+│                                       # Advanced visualizations & KPI summaries
 │
 ├── dashboard/
-│   ├── README.md                  # Interactive Power BI dashboard
-│   └── screenshots/               # Dashboard screenshots
+│   ├── README.md                      # Interactive Power BI dashboard documentation
+│   ├── Streaming_Dashboard.pdf        # Static export of the full dashboard
+│   └── screenshots/                   # Dashboard screenshots
+│       ├── overview.png
+│       ├── provider.png
+│       ├── genre.png
+│       ├── catalog-health.png
+│       ├── quality-vs-consumption.png
+│       └── content-strategy.png
 │
 ├── reports/
-│   ├── Dataset_Dictionary.xlsx    # Dataset fields and metrics documentation
-│   ├── Dashboard_Requirements.xlsx# Business KPIs and dashboard requirements
-│   ├── Project_Overview.xlsx      #  Project scope and analytical goals
-│   └── summary.md                 # Business insights & analytical conclusions
+│   ├── Dataset_Dictionary.xlsx        # Dataset fields and metrics documentation
+│   ├── Dashboard_Requirements.xlsx    # Business KPIs and dashboard requirements
+│   ├── Project_Overview.xlsx          # Project scope and analytical goals
+│   └── summary.md                     # Business insights & analytical conclusions
 │
-├── visuals/                       # Exported charts and images
+├── visuals/                           # Exported charts and notebook visuals
 ├── requirements.txt
 └── README.md
-
 ```
+
+---
 
 ## Datasets
 All datasets are synthetic but designed to reflect realistic streaming platform behaviors and distributions.
