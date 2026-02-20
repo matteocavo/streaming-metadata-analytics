@@ -148,7 +148,7 @@ The dashboard relies on advanced Power BI modeling techniques including:
 
 - Advanced DAX measures with controlled filter context  
 - Median-based segmentation logic  
-- Completion Lift using dynamic global benchmark  
+- Completion Lift calculated against a dynamic global benchmark
 - Gini coefficient implementation in DAX  
 - Cross-filter stability handling  
 - Interactive slicer architecture  
