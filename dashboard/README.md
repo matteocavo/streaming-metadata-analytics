@@ -22,7 +22,7 @@ The objective is to transform raw streaming metadata into a strategic decision-s
 - What truly drives engagement?
 - Where should a platform invest or divest?
 
-The dashboard analyzes 2,000 titles across 21 metadata attributes including:
+The dashboard analyzes 2,000 titles across 21 engineered metadata attributes including:
 
 - Genre  
 - Provider  
@@ -161,6 +161,7 @@ The dashboard relies on advanced Power BI modeling techniques including:
 The dataset is synthetically generated to simulate realistic streaming engagement patterns. 
 
 This controlled design allows the modeling of behavioral dynamics (completion, rewatch, concentration) without noise from incomplete real-world data.
+
 Attributes include:
 
 - Genre  
