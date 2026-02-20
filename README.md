@@ -30,6 +30,8 @@ and cross-dimensional comparisons across genre, provider, and content maturity.
 - Some providers trade catalog quality for scale
 - Engagement varies more by genre than by provider
 
+---
+
 ## Selected Visuals
 
 ### Total Views by Genre
@@ -42,6 +44,8 @@ viewer engagement, and overall reach.
 
 ### Total Views by Country of Origin and Provider
 ![Country Provider Heatmap](visuals/heatmap_provider_country.png)
+
+---
 
 ## Project Structure 
 ```text
@@ -70,7 +74,9 @@ streaming-metadata-analytics/
 ├── visuals/                       # Exported charts and images
 ├── requirements.txt
 └── README.md
+
 ```
+
 ## Datasets
 All datasets are synthetic but designed to reflect realistic streaming platform behaviors and distributions.
 
@@ -109,6 +115,8 @@ All datasets are synthetic but designed to reflect realistic streaming platform 
 - device
 - country
 
+---
+
 ## KPI Engineering
 
 From the enriched streaming catalog, the following KPIs are computed:
@@ -137,6 +145,8 @@ Calculated as: `2025 - release_year`
 
 Derived from content age rating
 
+---
+
 ## Notebooks
 
 `01_exploration.ipynb`
@@ -155,19 +165,53 @@ Derived from content age rating
 - Boxplots and heatmaps
 - High-level KPI summaries by genre, provider, and maturity rating
 
+---
 
 ## Power BI Dashboard
 
-**File:** `powerbi/Streaming_Dash.pbix`
+The interactive Power BI dashboard extends the notebook analysis into a structured, business-facing decision-support framework.
 
-Built on the enriched catalog dataset (data/processed)
+**Live version and full documentation:**  
+See [`dashboard/README.md`](dashboard/README.md)
 
-Includes:
-- KPI cards (Total Views, IMDb Rating, Completion Rate, Engagement Score)
-- Views by genre and provider
-- Popularity and engagement scatterplots
-- Interactive filters and drill-downs
-- Screenshots are available in powerbi/screenshots/.
+Built on the enriched dataset:
+
+`data/processed/streaming_catalog_enriched.csv`
+
+The dashboard translates engineered KPIs into strategic insights across six structured sections:
+
+- Executive Overview of catalog performance  
+- Provider benchmarking with Completion Lift vs global average  
+- Genre efficiency and engagement comparison  
+- Catalog Health metrics (Gini Index, concentration, distribution analysis)  
+- Quality vs Consumption behavioral analysis  
+- Content Strategy Matrix (Blockbusters, Hidden Gems, Guilty Pleasures, Underperformers)
+
+### Strategic Metrics Highlight
+
+- **Gini Index ≈ 0.06** → highly balanced catalog consumption  
+- **~26% Underperformers** → potential optimization candidates  
+- **Rewatch Index = 1.00** → stable engagement repetition  
+- **High Non-US exposure** → diversified international footprint  
+
+Compared to the static notebook visuals, the dashboard introduces:
+
+- Dynamic performance segmentation logic  
+- Median-based quadrant modeling  
+- Gini coefficient implemented in DAX  
+- Controlled filter-context benchmarking  
+- Fully interactive slicer architecture  
+
+### Dashboard Preview
+
+![Content Strategy Preview](dashboard/screenshots/content-strategy.png)
+
+Additional screenshots and a static export are available in:
+
+`dashboard/README.md`  
+`dashboard/Streaming_Dashboard.pdf`
+
+---
 
 ## Documentation & Reports
 
@@ -177,6 +221,7 @@ The `reports/` folder includes business and technical documentation used to guid
 - Project overview defining scope and analytical objectives
 - Final analytical **summary** with business insights and conclusions (`summary.md`)
 
+---
 
 ## Technologies Used
 
@@ -185,6 +230,8 @@ The `reports/` folder includes business and technical documentation used to guid
 - Visual Studio Code
 - Power BI
 - Excel
+
+---
 
 ## Author
 
