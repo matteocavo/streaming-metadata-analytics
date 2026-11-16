@@ -1,5 +1,9 @@
 # Business Commentary – Providers & Genres
 
+All figures describe synthetic data. The provider names are illustrative. Strategic
+interpretations below are hypotheses for this case study, not verified causal
+explanations or evidence about real streaming services.
+
 This document summarizes the main business insights derived from the aggregated streaming catalog KPIs.
 
 ---

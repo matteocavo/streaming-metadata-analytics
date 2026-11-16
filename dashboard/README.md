@@ -4,6 +4,9 @@ This folder contains the interactive Power BI dashboard built as part of the **S
 
 ---
 
+All engagement figures below describe the project's synthetic dataset. They are
+illustrative analytical outputs, not observed performance of real streaming services.
+
 ## Live Dashboard
 
 [Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOTQ1M2ExNmQtZWNjMi00YWQ5LWFjMDAtYzIxN2U2MDkxMTk3IiwidCI6IjgwNjZmMmRlLTgxZDctNGVjNC04Y2E5LTgzNzVjOTA4NjViNSJ9)
