@@ -3,6 +3,15 @@
 **End-to-end Data Analytics & BI case study focused on streaming content performance and engagement modeling**
 *Python • Jupyter • Power BI • Excel*
 
+This is a **synthetic-data case study**, not measurements of Netflix, Amazon or
+other real services. It demonstrates how to build completion, rewatch and catalog
+health indicators for an illustrative streaming service.
+
+**[Open the Power BI dashboard](https://app.powerbi.com/view?r=eyJrIjoiOTQ1M2ExNmQtZWNjMi00YWQ5LWFjMDAtYzIxN2U2MDkxMTk3IiwidCI6IjgwNjZmMmRlLTgxZDctNGVjNC04Y2E5LTgzNzVjOTA4NjViNSJ9)** ·
+[Dashboard methods and screenshots](dashboard/README.md) · [MIT License](LICENSE)
+
+![Existing dashboard preview on synthetic data](dashboard/screenshots/overview.png)
+
 🔗 [View Dashboard Documentation & Live Link](dashboard/README.md)
 
 ---
@@ -73,7 +82,7 @@ streaming-metadata-analytics/
 │
 ├── dashboard/
 │   ├── README.md                      # Interactive Power BI dashboard documentation
-│   ├── Streaming_Dashboard.pdf        # Static export of the full dashboard
+│   ├── Streaming_Dash.pdf             # Static export of the full dashboard
 │   └── screenshots/                   # Dashboard screenshots
 │       ├── overview.png
 │       ├── provider.png
@@ -227,7 +236,7 @@ Compared to the static notebook visuals, the dashboard introduces:
 Additional screenshots and a static export are available in:
 
 `dashboard/README.md`  
-`dashboard/Streaming_Dashboard.pdf`
+`dashboard/Streaming_Dash.pdf`
 
 ---
 
@@ -258,3 +267,22 @@ Data Analyst · Metadata & content expert
 12+ years of international experience in content and metadata operations
 (Nielsen / Gracenote, Netflix, Amazon, Disney+, RAI, SKY)
 Focused on analytics, performance modeling, and metadata intelligence.
+
+
+## Reproduce the analysis
+
+```bash
+python -m pip install -r requirements.txt
+jupyter lab
+```
+
+Open the notebooks in order, starting with `notebooks/01_exploration.ipynb`.
+The committed raw and processed files support inspection; the reported numbers
+describe this synthetic dataset and the fixed 2025 recency reference, not current
+market conditions or causal effects. Preserve that reference when comparing results.
+
+## Related work and license
+
+[Streaming Competitive Benchmark](https://github.com/matteocavo/Streaming_Competitive_Benchmark)
+compares reported catalog availability from TMDB, rather than synthetic engagement.
+Original project code uses the [MIT License](LICENSE).
